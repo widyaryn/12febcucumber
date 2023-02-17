@@ -1,0 +1,31 @@
+{
+  "name": "12febcucumber",
+  "version": "1.0.0",
+  "description": "cucumber",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "wdio": "wdio run ./wdio.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/widyaryn/12febcucumber.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/widyaryn/12febcucumber/issues"
+  },
+  "homepage": "https://github.com/widyaryn/12febcucumber#readme",
+  "dependencies": {
+    "wdio": "^6.0.1"
+  },
+  "devDependencies": {
+    "@wdio/cli": "^8.3.5",
+    "@wdio/cucumber-framework": "^8.3.0",
+    "@wdio/local-runner": "^8.3.5",
+    "@wdio/spec-reporter": "^8.3.0",
+    "chromedriver": "^110.0.0",
+    "wdio-chromedriver-service": "^8.0.1"
+  }
+}
