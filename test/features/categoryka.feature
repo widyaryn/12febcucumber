@@ -8,7 +8,8 @@ Feature: Category Feature kasirAja
         When User click button tambah
         When User input nama: <nama>
         When User input deskripsi: <deskripsi>
-        Then User click button simpan
+        When User click button simpan
+        Then User should see kategori page kasirAja
 
         Examples:
         | email| password | nama | deskripsi |

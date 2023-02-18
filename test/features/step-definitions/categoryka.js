@@ -22,13 +22,16 @@ When(/^User click button tambah$/, async function (){
 })
 When(/^User input nama: (\w+)$/,async function (nama) {
     await $("#nama").setValue(nama);
-    await browser.pause(1000)
 })
 When(/^User input deskripsi: (.*)$/,async function (deskripsi) {
     await $("#deskripsi").setValue(deskripsi);
     await browser.pause(1000)
 })
-Then(/^User click button simpan$/, async function (){
+When(/^User click button simpan$/, async function (){
     await $("#root > div > div > div.css-1r35f0l > div.chakra-container.css-9rmdie > div.css-1t33j5j > button").click()
-    await browser.pause(2000)
+    await browser.pause(1000)
+})
+Then(/^User should see kategori page kasirAja$/, async function (){
+    await expect(browser).toHaveUrl('https://kasirdemo.belajarqa.com/categories')
+    await browser.pause(1000)
 })

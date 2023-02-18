@@ -3,8 +3,10 @@ Feature: Login Feature kasirAja
         
         Given Website homepage
         When User input <email> and <password>
-        Then User click login button
+        When User click login button
+        Then User should see dashboard page kasirAja
+
 
         Examples:
-        |       email          | password |
-        | emailaja@yopmail.com |   12345  |
+        |       email          | password | 
+        | emailaja@yopmail.com |   12345  | 

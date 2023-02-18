@@ -14,7 +14,9 @@ Feature: Product Feature kasirAja
         When User input stok: <stok>
         When User click field kategori
         When User click kategori: kopi
-        Then User click button simpan
+        When User click button simpan
+        Then User should see produk page kasirAja
+
 
         Examples:
         | email| password | kode | nama | deskripsi | hargabeli | hargajual | stok |

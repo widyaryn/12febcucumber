@@ -52,7 +52,11 @@ When(/^User click kategori: kopi$/, async function (){
     await $(".css-13n66qk=kopi").click()
     await browser.pause(1000)
 })
-Then(/^User click button simpan$/, async function (){
+When(/^User click button simpan$/, async function (){
     await $("#root > div > div > div.css-1r35f0l > div.chakra-container.css-9rmdie > div.css-1t33j5j > button").click()
     await browser.pause(2000)
+})
+Then(/^User should see produk page kasirAja$/, async function (){
+    await expect(browser).toHaveUrl('https://kasirdemo.belajarqa.com/products')
+    await browser.pause(1000)
 })
