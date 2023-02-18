@@ -14,4 +14,4 @@ How To Run:
 
 Link Document Test Scenario/Test Step : https://docs.google.com/spreadsheets/d/1RvvlXDvwKENQw_6o4AGSqtk3XxEk68PvayfzXQpIDjA/edit?usp=sharing
 
-Link Video Record Hasil Eksekusi Script: https://drive.google.com/file/d/1C7OEOQy3-DGgJn4dy15ZS8ynm1sCEcJJ/view?usp=sharing
+Link Video Record Hasil Eksekusi Script: https://drive.google.com/file/d/1Kr6wzcnAoCttMteNs3CkxbbjzuRbtJMw/view?usp=sharing
